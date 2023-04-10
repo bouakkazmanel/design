@@ -1,0 +1,247 @@
+*{
+    margin:0;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+} 
+.page .heading{
+    background-image: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+.container .logo{
+    height: 120px;
+    padding-top: 120px;
+}
+.container img{
+    width: 100px;
+}
+.container h1{
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+.container p{
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.link .green{
+    background-color:hsl(171, 66%, 44%) ;
+}
+.link .blue {
+    background-color: hsl(233, 100%, 69%);
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 40px;
+    padding: 12px 25px;
+    cursor: pointer;
+}
+@media(min-width:992px){
+    .container{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+@media(max-width:991px){
+    .container{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media(max-width:678px){
+    .container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .link{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:375px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+.info{
+    padding-right: 200px;
+}
+.titre{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+@media(max-width:991px){
+    .titre{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media(max-width:667px){
+    .titre{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+.info{
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+.info .images{
+    min-height: 500px;
+}
+.info img{
+    width: 50%;
+    position: absolute;
+    left: -30px;
+}
+.boxes{
+    width: 365px;
+}
+.info .box{
+    margin-bottom: 30px;
+}
+@media(max-width:1120px){
+    .info{
+        padding-right: 100px;
+    }
+}
+@media(max-width:991px){
+    .info{
+        flex-direction: column;
+        text-align: center;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .info .images{
+        min-height: 350px;
+        
+    }
+    .info .images img{
+        position: relative;
+        left: 0;
+        width: 400px;
+    }
+}
+@media(max-width:420px){
+    .info .images{
+        min-height: 300px;
+        
+    }
+    .info .images img{
+        width: 300px;
+    }
+}
+.titre h2{
+    margin-top: 100px;
+}
+.titre p{
+    line-height: 1.6;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 60px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.boxes-work{
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: baseline;
+    justify-content: center;
+    gap: 20px;
+}
+@media (max-width:991px) {
+    .boxes-work{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.boxes-work .workflow {
+    width: 300px;
+}
+.boxes-work .workflow img{
+    width: 30px;
+    margin-bottom: 20px;
+}
+.boxes-work .workflow h2{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.boxes-work .workflow p{
+    line-height: 1.6;
+}
+.marque{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+@media (max-width:991px) {
+    .marque{
+        flex-direction: column;
+    }
+}
+.footer{
+    background-color: rgb(240, 237, 237);
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+@media (max-width:991px) {
+    .group , 
+    .footer ,
+    .text-footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px !important;
+    }
+    .para-footer{
+        margin-left: 0 !important;
+        text-align: center;
+    }
+}
+.group{
+    gap: 70px;
+    align-items: center;
+}
+.footer-logo img{
+    width: 60px;
+}
+.para-footer:not(:first-child){
+    margin-left: 75px;
+}
+.group a{
+    text-decoration: none;
+    line-height: 1.6;
+    color: hsl(210, 10%, 33%);
+}
+.group a:hover{
+    color:hsl(171, 66%, 44%) ;
+}
+.para-footer p{
+    margin-top: 10px;
+}
+.icon a:not(:first-child){
+    margin-left: 20px;
+}
+/* Strong Cyan: hsl(171, 66%, 44%)
+- Light Blue: hsl(233, 100%, 69%)
+
+### Neutral
+
+- Dark Grayish Blue: hsl(210, 10%, 33%)
+- Grayish Blue: hsl(201, 11%, 66%)
+*/

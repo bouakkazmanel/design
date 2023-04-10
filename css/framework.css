@@ -1,0 +1,21 @@
+/* text*/
+.t-cntr{
+    text-align: center;
+}
+.fs-14{
+    font-size: 14px;
+}
+/*margin*/
+.mb-10{
+    margin-bottom: 10px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+/* display*/
+.flex{
+    display: flex;
+}
