@@ -8,16 +8,21 @@ body{
     background-image: url(../images/bg-header-desktop.png);
     background-repeat: no-repeat;
 }
+.content{
+    min-height: 580px;
+}
 .container .logo{
-    height: 120px;
-    padding-top: 120px;
+    min-height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
-.container img{
-    width: 100px;
-}
-.container h1{
+ h1{
     color: hsl(210, 10%, 33%);
     margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 36px;
 }
 .container p{
     font-size: 18px;
@@ -47,7 +52,14 @@ body{
     padding: 12px 25px;
     cursor: pointer;
 }
-@media(min-width:992px){
+
+@media(min-width:1121px){
+    .container{
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+}
+@media(max-width:1120px){
     .container{
         padding-left: 200px;
         padding-right: 200px;
@@ -81,6 +93,7 @@ body{
 .titre{
     padding-left: 200px;
     padding-right: 200px;
+    min-height: 200px;
 }
 @media(max-width:991px){
     .titre{
